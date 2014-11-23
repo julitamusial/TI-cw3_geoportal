@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset = "UTF-8" />
+			<title>Interaktywna mapa</title>
+			
+			
+   			<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+   			<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+   			<script src="leaflet_awesome_markers.js"></script>
+   			<script src="http://leaflet.github.io/Leaflet.draw/leaflet.draw.js"></script>
+			
+			
+			<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+			<link type="text/css"; rel="stylesheet"; href="stylesheet.css">
+			<link rel="uczelnia" type="application/json" href="uczelnia.json">
+			<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+			<link rel="stylesheet" href="http://leaflet.github.io/Leaflet.draw/leaflet.draw.css"/>
+		</head>
+		
+		<body>
+
+<!--Hero image-->          
+     <div class = "hero">
+         <div class = "hero-content">
+            <h1>Geoportal UP</h1>
+            <p>Budynki uczelniane i nie tylko...</p>
+        </div>
+	</div>
+		
+<!-- Menu bar-->        
+     <div class = "menu">
+			<ul class = "menu-container">
+				<li><a href = "#">Home</a></li>
+				<li><a href = "#">Home2</a></li>
+				<li><a href = "#">Home3</a></li>
+				<li><a href = "#">Home4</a></li>
+			</ul>
+	</div>
+	
+<!-- Page content-->
+	<div class = "page">
+		<div class = "page-content">
+			<div class = "nav-panel-group">
+				<div class = "nav-panel">
+					<p> Marker</p>
+						<div id='add'>Add marker</div>
+						<div id='remove'>Remove marker</div>
+					
+					<p> Adnotation</p>
+						<div id='addP'> Add adnotation</div>
+						<div id='removeP'>Remove adnotation</div>
+				
+					<p> Add WMS</p>
+					<form>
+						<div class = "form-container">
+							<div>url</div>
+							<input type = 'text'></input>
+						</div>
+					</form>
+				
+				</div>
+				
+				<div class = "footer">
+					<p>@2014 Julita Musiał</p>
+				</div>
+			</div>
+
+	<!--Okno mapy-->			
+			<div id="map"></div>
+			
+		</div>
+	</div>	
+
+	<script src="script.js"></script>
+		
+	</body>
+	</html>

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "id": 3, "nazwa": "GIK n-s" }, "geometry": { "type": "Point", "coordinates": [ 17.06245310620189, 51.113016135259549 ] } },
+{ "type": "Feature", "properties": { "id": 2, "nazwa": "GP" }, "geometry": { "type": "Point", "coordinates": [ 17.063461779773665, 51.113298563859651 ] } },
+{ "type": "Feature", "properties": { "id": 1, "nazwa": "GiK" }, "geometry": { "type": "Point", "coordinates": [ 17.063404141283851, 51.11339078544335 ] } }
+]
+}
